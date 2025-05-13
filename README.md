@@ -2,62 +2,82 @@
 Created with CodeSandbox
 
 
-H
+
 
 
 ---
 
+# espxreact
+
+This project demonstrates the use of **React with ES6 module imports and exports**. It was created using **CodeSandbox** and later pushed to GitHub for internship submission.
+
+## Objective
+
+The main aim of this project is to:
+
+- Practice the structure and setup of a basic React application using ES6 module syntax.
+- Understand how to use `import` and `export` for component organization.
+- Render components using `ReactDOM.createRoot()` method in a clean and modular format.
+
+## Technologies Used
+
+- React (with Functional Components)
+- JavaScript (ES6 Modules)
+- HTML
+- CodeSandbox for development
+- GitHub for version control and sharing
+
+## Files Included
+
+- `App.js` – Contains the main component logic.
+- `index.js` – Entry point rendering the `App` component using `ReactDOM.createRoot`.
+- `styles.css` – Basic styling (if any).
+- `index.html` – HTML structure for mounting the React app.
+- `ss.jpg` – Screenshot image of the live working app.
+- `.eslintrc.json`, `.gitignore`, and other config files.
+
+## Issue Faced
+
+Due to some **display or rendering issues in CodeSandbox**, the actual preview was **not visible properly** in the online IDE for final internship proof. Hence, the **screenshot `ss.jpg` was added** to this repository as proof of the working application.
+
+## Screenshot Preview
+
+Below is the actual output of the React app (included as `ss.jpg` in the repo):
+
+![Math Function Output Screenshot](./ss.jpg)
+
+The output includes:
+- A heading "Math Functions"
+- Simple rendered arithmetic expressions such as `5 + 3 = 8` and `5 - 3 = 2`
+
+---
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Arundeepyt/espxreact.git
+
+2. Open in any React-compatible editor (like VS Code)
 
 
-# React + ES6 Modules 
+3. Run:
 
-This project demonstrates the use of ES6 `import` and `export` statements in a simple React app.
-
-## Features
-
-- Built using React (in CodeSandbox)
-- Modular JavaScript with named exports
-- Displays math operations using imported functions
-
-## File Structure
-
-/src ├── App.js         # Main React component ├── math.js        # Module with add and subtract functions └── index.js       # Entry point for React app styles.css index.html
-
-## How It Works
-
-- `math.js` exports two functions: `add` and `subtract`
-- `App.js` imports these functions and uses them to display results
-- `index.js` renders the app using React 18's `createRoot`
-
-## Output Screenshot
-
-![App Output](./file-JvisFExuHH35q3xXvz2ET1)
-
-## Example Output
-
-Math Functions 5 + 3 = 8 5 - 3 = 2
-
-## Run It Yourself
-
-### In CodeSandbox
-
-1. Visit [https://codesandbox.io](https://codesandbox.io)
-2. Create a new **React** sandbox
-3. Add files: `App.js`, `math.js`, and update `index.js`
-4. Add basic HTML in `index.html` if needed
-5. Paste the code and run
-
-### Locally
-
-```bash
-npx create-react-app react-es6-modules
-cd react-es6-modules
-# Replace /src files with this project’s files
+npm install
 npm start
 
 
+
+
 ---
 
-Let me know if you want the .md file download or help setting up a GitHub repo!
+Author
 
+Arundeepyt
+Built for Internship Submission
+Created using CodeSandbox
+
+---
+
+Let me know if you'd like me to create and format this file for you or help upload to GitHub directly!
 
