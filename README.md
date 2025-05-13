@@ -33,12 +33,12 @@ The main aim of this project is to:
 - `index.js` – Entry point rendering the `App` component using `ReactDOM.createRoot`.
 - `styles.css` – Basic styling (if any).
 - `index.html` – HTML structure for mounting the React app.
-- `ss.jpg` – Screenshot image of the live working app.
+- `99.jpg` – Screenshot image of the live working app.
 - `.eslintrc.json`, `.gitignore`, and other config files.
 
 ## Issue Faced
 
-Due to some **display or rendering issues in CodeSandbox**, the actual preview was **not visible properly** in the online IDE for final internship proof. Hence, the **screenshot `ss.jpg` was added** to this repository as proof of the working application.
+Due to some **display or rendering issues in CodeSandbox**, the actual preview was **not visible properly** in the online IDE for final internship proof. Hence, the **screenshot `99.jpg` was added** to this repository as proof of the working application.
 
 ## Screenshot Preview
 
