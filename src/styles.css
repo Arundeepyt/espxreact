@@ -1,0 +1,14 @@
+/* Basic CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Added a fallback font */
+  line-height: 1.6;
+  background-color: #0ec6b7;
+  color: #6a0dad; /* Adjusted color for better contrast */
+}
